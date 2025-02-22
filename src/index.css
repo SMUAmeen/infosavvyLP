@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  .hide-scroll-bar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .hide-scroll-bar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .main-gradient {
+    @apply inline bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-red-200 via-white to-blue-200 bg-clip-text text-transparent;
+  }
+
+  .main-dark-gradient {
+    @apply inline bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-500 via-sky-700 to-blue-500 bg-clip-text text-transparent;
+  }
+
+
+  .one-title {
+    @apply md:text-xl text-lg
+  }
+  
+  .two-title {
+    @apply md:text-2xl text-xl
+  }
+  
+  .three-title {
+    @apply md:text-3xl text-2xl
+  }
+
+  .four-title {
+      @apply lg:text-4xl text-3xl
+  }
+
+  .five-title {
+      @apply xl:text-5xl md:text-4xl text-3xl
+  }
+
+  .six-title {
+      @apply xl:text-6xl lg:text-5xl text-4xl
+  }
+
+  .seven-title {
+      @apply xl:text-7xl lg:text-6xl text-5xl
+  }
+
+  .eight-title {
+      @apply xl:text-8xl lg:text-7xl text-6xl
+  }
+
+  .half-responsive {
+    @apply w-full lg:w-1/2
+  }
+
+  .paragraph-responsive {
+    @apply text-base lg:text-lg
+  }
+
+  .transition300 {
+    @apply transition transform duration-300
+  }
+
+  .transition300scale {
+    @apply transition transform duration-300 hover:scale-[1.03]
+  }
+
+  .meshmain {
+    background-color:hsla(226,100%,80%,1);
+    background-image:
+    radial-gradient(at 86% 50%, hsla(209,72%,45%,1) 0px, transparent 50%),
+    radial-gradient(at 87% 2%, hsla(193,92%,68%,1) 0px, transparent 50%),
+    radial-gradient(at 98% 19%, hsla(223,69%,23%,1) 0px, transparent 50%),
+    radial-gradient(at 57% 61%, hsla(220,100%,96%,1) 0px, transparent 50%),
+    radial-gradient(at 73% 79%, hsla(227,55%,33%,1) 0px, transparent 50%),
+    radial-gradient(at 70% 91%, hsla(221,96%,76%,1) 0px, transparent 50%),
+    radial-gradient(at 51% 3%, hsla(215,85%,69%,1) 0px, transparent 50%);
+  }
+
+  .meshmain-dark {
+    background-color: hsla(226, 60%, 20%, 1);
+    background-image:
+      radial-gradient(at 86% 50%, hsla(209, 72%, 25%, 1) 0px, transparent 50%),
+      radial-gradient(at 87% 2%, rgb(6, 109, 137) 0px, transparent 50%),
+      radial-gradient(at 98% 19%, rgb(23, 39, 81) 0px, transparent 50%),
+      radial-gradient(at 57% 61%, hsla(220, 100%, 30%, 1) 0px, transparent 50%),
+      radial-gradient(at 73% 79%, hsla(227, 55%, 20%, 1) 0px, transparent 50%),
+      radial-gradient(at 70% 91%, rgb(78, 115, 193) 0px, transparent 50%),
+      radial-gradient(at 51% 3%, hsla(215, 85%, 35%, 1) 0px, transparent 50%);
+  }
+}
