@@ -48,7 +48,7 @@ const Hero = () => {
 
           <div className="flex gap-x-4 w-full justify-center items-center text-base">
             <a
-              href="#"
+              href="#contact"
               className="px-6 py-2 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-white to-blue-100 dark:from-black dark:to-blue-950 shadow-lg rounded-lg text-slate-600 dark:text-slate-100 font-medium transition300scale"
             >
               Get Started
