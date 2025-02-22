@@ -11,7 +11,7 @@ export default function Footer() {
             </div>
 
             <div className="max-w-3xl mx-auto p-8 bg-white dark:bg-slate-900 rounded-lg shadow-lg relative z-30 border-2 border-blue-100 dark:border-slate-800">
-  <h2 className="five-title font-medium tracking-tighter text-black dark:text-white mb-6 text-center">
+  <h2 id="contact"className="five-title font-medium tracking-tighter text-black dark:text-white mb-6 text-center">
     Contact our Team
   </h2>
   
