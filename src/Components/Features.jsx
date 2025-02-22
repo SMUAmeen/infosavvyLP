@@ -39,7 +39,7 @@ const Features = () => {
 
                 <div className='text-center text-white four-title tracking-tight space-y-2'>
                     <div className='eight-title flex flex-col gap-x-4 justify-center'>
-                        <div>So We Built</div>
+                        <div id="about">So We Built</div>
                         <div className='flex gap-x-2 items-center justify-center'><PiCompassDuotone className='w-14 h-14 lg:h-20 lg:w-20'/> <span className="main-gradient">Compass</span></div>
                     </div>
                 </div>
