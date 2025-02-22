@@ -17,15 +17,15 @@ const Hero = () => {
           <div className="flex divide-x-2 divide-slate-300 dark:divide-[#939595] gap-x-4 items-center">
             <img src={logo} alt="" className="h-8" />
             <div className="flex gap-x-4 tracking-tight pl-4">
-              <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Outreach</a>
+              {/* <a href="#">Home</a> */}
+              <a href="#about">About</a>
+              {/* <a href="#">Outreach</a> */}
             </div>
           </div>
 
           <div className="flex gap-x-2">
             <a
-              href="#"
+              href="#contact"
               className="px-6 py-2 bg-white rounded-md shadow-md transition300scale bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-white to-blue-100 dark:from-blue-900 dark:to-blue-950"
             >
               Contact
@@ -53,7 +53,7 @@ const Hero = () => {
             >
               Get Started
             </a>
-            <a href="#">Book a Demo</a>
+            <a href="#contact">Book a Demo</a>
           </div>
         </div>
 
