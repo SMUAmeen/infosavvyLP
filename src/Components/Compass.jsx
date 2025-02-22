@@ -10,7 +10,7 @@ const Compass = () => {
 
       <div className="max-w-[90rem] mx-auto flex flex-col gap-y-8">
 
-        <h1 className="six-title tracking-tighter text-center text-slate-700 dark:text-slate-100 max-w-[70rem] mx-auto">
+        <h1 id="start" className="six-title tracking-tighter text-center text-slate-700 dark:text-slate-100 max-w-[70rem] mx-auto">
           Here's how InfoSavvy <span className="main-dark-gradient dark:main-gradient">simplifies access to resources</span> at your university
         </h1>
 
