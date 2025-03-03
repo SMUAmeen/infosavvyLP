@@ -8,7 +8,7 @@ import FAQ from '../Components/Footer'
 
 const Homepage = () => {
   return (
-    /* <AOSWrapper> */
+    <AOSWrapper>
       <div className='bg-white dark:bg-[#171717] min-h-screen'>
         <Hero />
         <Stats />
@@ -16,7 +16,7 @@ const Homepage = () => {
         <Compass />
         <FAQ />
       </div>
-    /* </AOSWrapper> */
+    </AOSWrapper>
   )
 }
 
